@@ -50,8 +50,6 @@ const ProductList = () => {
       <option value="price.asc">Price Low to High</option>
       <option value="rating.desc">Rating High to Low</option>
       <option value="rating.asc">Rating Low to High</option>
-
-
      </select>
 
 
