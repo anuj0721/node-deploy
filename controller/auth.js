@@ -10,6 +10,7 @@ const privateKey = fs.readFileSync(
 );
 
 exports.signUp = (req, res) => {
+  console.log(req.body)
   const user = new User(req.body);
   var token = jwt.sign({ email: req.body.email }, privateKey, {
     algorithm: 'RS256',
